@@ -27,6 +27,7 @@
     "react-scripts": "5.0.1",
     "react-vertical-timeline-component": "^3.6.0",
     "serve": "^14.2.1",
+    "vercel": "^33.5.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
