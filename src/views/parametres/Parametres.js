@@ -3,7 +3,7 @@ import BaseLayout from "../../layout/BaseLayout";
 import TypesPieces from "./TypePiece";
 import Information from "./Information";
 import Specialite from "./Specialite";
-import TypeDocument from "./TypeDocument";
+import TypeDocument from "./Typedocument";
 const Parametres = () => {
   const [view, setView] = useState("TYPE_PIECE");
   
