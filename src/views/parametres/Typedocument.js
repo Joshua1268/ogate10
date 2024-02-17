@@ -4,7 +4,7 @@ import { MdChevronLeft } from 'react-icons/md';
 import {MdChevronRight} from 'react-icons/md';
 import { FaEdit, FaTrash } from 'react-icons/fa';
 
-const Typedocument = () => {
+const TypeDocument = () => {
   const [data, setData] = useState([]);
   const [form, setForm] = useState({ id: '', designation: '' });
   const [message, setMessage] = useState(null);
@@ -224,4 +224,4 @@ const handleEditSubmit = async (event) => {
   );
 };
 
-export default Typedocument;
+export default TypeDocument;
