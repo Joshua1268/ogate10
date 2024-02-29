@@ -48,12 +48,13 @@ body {
 } */
 
 .main-menu .active button {
-  background-color: #1d7cc0;
+  background-color: #c48484;
   color: white;
 }
 
+
 li a.active {
-  background-color: #219EF9 !important;
+  background-color: #c48484 !important;
   color: white !important;
 }
 
@@ -146,4 +147,28 @@ span {
 
 .vertical-timeline-element-content p {
   margin-bottom: 10px !important;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-content {
+  margin-bottom: 15px;
 }

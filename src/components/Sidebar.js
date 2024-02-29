@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import LOGO from "./../assets/images/myra.png";
+import LOGO from "./../assets/images/ogate.jpeg";
 import {
   Cog,
   KeyRound,
@@ -11,9 +11,11 @@ import {
   Wallet,
 } from "lucide-react";
 import Face2Icon from "@mui/icons-material/Face2";
+import DocumentIcon from '@mui/icons-material/Description'; // Import de l'icône de document depuis Material-UI Icons
 import DashboardIcon from "@mui/icons-material/Dashboard";
 import { NavLink, useNavigate } from "react-router-dom";
 import jwt_decode from "jwt-decode";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Sidebar = () => {
   const navigate = useNavigate();
@@ -44,7 +46,7 @@ const Sidebar = () => {
           </NavLink>
           <NavLink to="/publicite">
             <button className="bg-white w-full px-3 py-2.5 rounded-lg flex items-center gap-x-2 text-gray-600 font-medium">
-              <Face2Icon sx={{ fontSize: 20 }} />
+            <FontAwesomeIcon icon="fa-solid fa-bullhorn" />
               <span className="text-left text-sm lg:text-base">
                 Publicités
               </span>
@@ -52,7 +54,7 @@ const Sidebar = () => {
           </NavLink>
           <NavLink to="/publications">
             <button className="bg-white w-full px-3 py-2.5 rounded-lg flex items-center gap-x-2 text-gray-600 font-medium">
-              <Face2Icon sx={{ fontSize: 20 }} />
+            <DocumentIcon size={20} /> 
               <span className="text-left text-sm lg:text-base">
                 Publications
               </span>

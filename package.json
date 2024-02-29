@@ -6,6 +6,9 @@
   "dependencies": {
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@mui/icons-material": "^5.14.12",
     "@mui/material": "^5.15.10",
     "@testing-library/jest-dom": "^5.17.0",
@@ -27,7 +30,6 @@
     "react-scripts": "5.0.1",
     "react-vertical-timeline-component": "^3.6.0",
     "serve": "^14.2.1",
-    "vercel": "^33.5.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
